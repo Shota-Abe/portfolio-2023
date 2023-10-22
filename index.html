@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="./img/favicon/favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="icon" href="./img/favicon/favicon.ico" type="image/vnd.microsoft.icon">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/common.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+	<title>最終課題</title>
+
+	<script src="https://unpkg.com/@rive-app/canvas"></script>
+	<script src="js/main.js"></script>
+</head>
+
+<body>
+
+	<div class="container">
+		<header>
+			<span class="header-title">Shota's Portfolio</span>
+
+			<div class="h-stack">
+				<a href="https://www.instagram.com/shota_appdev"><img class="sns-logo"
+						src="img/sns-logo/instagram-logo.png" alt="インスタロゴ"></a>
+				<div class="sized-box" style="width: 30px;"></div>
+				<a href="https://twitter.com/shota_appdev"><img class="sns-logo" src="img/sns-logo/twitter-logo.png"
+						alt="ツイッターロゴ"></a>
+				<div class="sized-box" style="width: 30px;"></div>
+				<a href="https://qiita.com/Shota-Abe"><img class="sns-logo" src="img/sns-logo/qiita-logo.png"
+						alt="キータロゴ"></a>
+				<div class="sized-box" style="width: 20px;"></div>
+				<canvas id="canvas" width="104" height="64" style="width: 52px; height: 32px;"></canvas>
+				<div class="sized-box" style="width: 20px;"></div>
+			</div>
+		</header>
+
+		<img class="profile_icon" src="img/profile_icon.png" alt="プロフィール画像">
+
+		<h1 class="profile_name">Shota Abe</h1>
+		<div class="profile_description-container">
+			<div class="h-stack" style="align-items: start;">
+				<p>大学：</p>
+				<div class="sized-box" style="width: 22px;"></div>
+				<p>
+					京都精華大学
+					<br>
+					メディア表現学部メディア表現学科メディア情報学科2年
+				</p>
+				<div class="spacer"></div>
+			</div>
+
+			<div class="h-stack" style="align-items: start;">
+				<p>職種：</p>
+				<div class="sized-box" style="width: 22px;"></div>
+				<p>モバイルエンジニア</p>
+				<div class="spacer"></div>
+			</div>
+
+			<div class="h-stack" style="align-items: start;">
+				<p>出身：</p>
+				<div class="sized-box" style="width: 22px;"></div>
+				<p>東京</p>
+				<div class="spacer"></div>
+			</div>
+		</div>
+
+		<div class="line"></div>
+
+		<h2>My Apps</h2>
+
+		<div class="x-stack">
+			<div class="group">
+				<div class="h-stack">
+					<img class="app-icon" src="./img/app-icon/zoom-camera-icon.png">
+					<h3>ズームカメラ！</h3>
+
+					<div class="spacer"></div>
+
+					<img class="qr-code" src="./img/qr-code/zoom-camera_qr.png">
+				</div>
+
+				<img id="zoom-camera-screenshot" class="screen-shot" src="./img/screenshot/zoom-camera-screenshot.png"
+					style="width: 550px;">
+
+				<p class="caption">
+					機械学習を用いて、遠くのものでもくっきり撮影できます。
+					使い方は簡単！スライダーを動かして倍率を調整し、シャッターボタンを押すだけです。
+				</p>
+			</div>
+
+			<div class="sized-box" style="width: 100px;"></div>
+
+			<div class="group">
+				<div class="h-stack">
+					<img class="app-icon" src="./img/app-icon/thinkmate-icon.png">
+					<h3>ThinkMate</h3>
+
+					<div class="spacer"></div>
+
+					<img class="qr-code" src="./img/qr-code/thinkmate_qr.png">
+				</div>
+
+				<div class="h-stack">
+					<img class="screen-shot" src="./img/screenshot/thinkmate-screenshot/thinkmate-screenshot-1.png"
+						style="width: 118px;">
+					<img class="screen-shot" src="./img/screenshot/thinkmate-screenshot/thinkmate-screenshot-2.png"
+						style="width: 118px;">
+					<img class="screen-shot" src="./img/screenshot/thinkmate-screenshot/thinkmate-screenshot-3.png"
+						style="width: 118px;">
+					<img class="screen-shot" src="./img/screenshot/thinkmate-screenshot/thinkmate-screenshot-4.png"
+						style="width: 118px;">
+				</div>
+
+				<p class="caption">
+					検索できるChat GPTアプリです。iPhone, iPad, Macで使用できます。
+					AIが教えてくれた情報を簡単に見返せるのでおすすめです。
+				</p>
+			</div>
+
+		</div>
+
+		<div class="x-stack">
+			<div class="group">
+				<div class="h-stack">
+					<a href="https://apps.apple.com/jp/app/floatingtimer/id1669639330">
+						<img id="floating-timer-icon" class="app-icon" src="./img/app-icon/floating-timer-icon.png">
+					</a>
+					<h3>FloatingTimer</h3>
+
+					<div class="spacer"></div>
+
+					<img class="qr-code" src="./img/qr-code/floating-timer_qr.png">
+				</div>
+
+				<img class="screen-shot" src="./img/screenshot/floating-timer-screenshot.png" style="width: 405px;">
+
+				<p class="caption">
+					FloatingTimerは、Mac用のタイマーアプリです。画面上で常に表示されるタイマーで、プレゼンテーションの時間管理を容易にします。
+				</p>
+			</div>
+
+			<div class="sized-box" style="width: 100px;"></div>
+
+			<div class="group">
+				<div class="h-stack">
+					<a href="https://apps.apple.com/jp/app/app-icon-craftsman/id1639095804">
+						<img class="app-icon" src="./img/app-icon/app-icon-designer-icon.png">
+					</a>
+
+					<h3>App Icon Craftsman</h3>
+
+					<div class="spacer"></div>
+
+					<img class="qr-code" src="./img/qr-code/appicon-designer_qr.png">
+				</div>
+
+				<img class="screen-shot" src="./img/screenshot/app-icon-designer-screenshot.png" style="width: 402px;">
+
+				<p class="caption">
+					アイコン・ロゴの作成に特化した画像編集アプリです。必要最小限の機能しかないので、初心者でも簡単にアイコンを作れます。
+				</p>
+			</div>
+
+		</div>
+
+		<a class="link-button" href="https://apps.apple.com/jp/developer/tsuyoshi-abe/id1610459325">
+			全てのアプリを見る
+		</a>
+	</div>
+</body>
+
+</html>
